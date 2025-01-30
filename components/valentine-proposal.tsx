@@ -32,7 +32,7 @@ export default function ValentineProposal() {
         if (answer === "yes") {
             confetti({
                 particleCount: 100,
-                spread: 70,
+                spread: 100,
                 origin: { y: 0.6 },
             })
             setTimeout(() => setShowLoveMessage(true), 1000)

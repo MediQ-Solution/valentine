@@ -7,9 +7,6 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/valentine',
-  assetPrefix: '/valentine/',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -25,6 +22,7 @@ const nextConfig = {
     parallelServerCompiles: true,
   },
 }
+
 mergeConfig(nextConfig, userConfig)
 
 function mergeConfig(nextConfig, userConfig) {
