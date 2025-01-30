@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heartbeat {
+  animation: heartbeat 1s infinite;
+}
+
+.bg-gradient-to-br {
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.font-cute {
+  font-family: "Pacifico", cursive;
+}
+
+.shadow-xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
